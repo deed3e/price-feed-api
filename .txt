@@ -1,0 +1,13 @@
+https://api.pro.coinbase.com/products/BTC-USD/candles?granularity=900&start=1686729000&end=1686731400
+
+
+wss://ws-feed.pro.coinbase.com
+
+{
+    "type": "subscribe",
+    "product_ids": [
+        "ETH-USD",
+        "BTC-USD"
+    ],
+    "channels": ["ticker"]
+}
